@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Projects by Gourav Kumar — websites, tools and other builds." />
+  <title>Projects — Gourav Kumar</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Gourav Kumar home">
+        <span class="logo-bracket">[</span>GK<span class="dot">_</span><span class="logo-bracket">]</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#websites">Websites</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#other">Other</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme" type="button">
+          <span class="icon sun" aria-hidden="true">☀</span>
+          <span class="icon moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" type="button">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="websites">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Websites</span>
+          <h2 class="section-title">Web builds.</h2>
+          <p class="section-lead">Deployed sites and web apps — source on GitHub.</p>
+        </header>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#00ff88,#00d4ff);">AU</div>
+            <div class="project-body">
+              <h3>aura</h3>
+              <p class="project-one-liner">Web application project deployed on Vercel.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <p class="project-impact"><strong>Live:</strong> aura-orcin-sigma.vercel.app</p>
+              <div class="project-links">
+                <a href="https://github.com/gouravharmilap/aura" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                <a href="https://aura-orcin-sigma.vercel.app" target="_blank" rel="noopener noreferrer">Live ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#ff3b5c,#ffb020);">AY</div>
+            <div class="project-body">
+              <h3>adarshyuvamandal</h3>
+              <p class="project-one-liner">Community website for Adarsh Yuva Mandal.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+              <p class="project-impact"><strong>Live:</strong> adarshyuvamandal.vercel.app</p>
+              <div class="project-links">
+                <a href="https://github.com/gouravharmilap/adarshyuvamandal" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                <a href="https://adarshyuvamandal.vercel.app/" target="_blank" rel="noopener noreferrer">Live ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#a78bfa,#00d4ff);">GK</div>
+            <div class="project-body">
+              <h3>gourav</h3>
+              <p class="project-one-liner">Personal portfolio with animated matrix background.</p>
+              <div class="project-tags"><span>CSS</span><span>HTML</span><span>JavaScript</span></div>
+              <p class="project-impact"><strong>Live:</strong> gourav-eta.vercel.app</p>
+              <div class="project-links">
+                <a href="https://github.com/gouravharmilap/gourav" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                <a href="https://gourav-eta.vercel.app" target="_blank" rel="noopener noreferrer">Live ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Tools</span>
+          <h2 class="section-title">Security tools &amp; scripts.</h2>
+          <p class="section-lead">Recon helpers, automation and utilities — in progress.</p>
+        </header>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#00ff88,#00d4ff);">T1</div>
+            <div class="project-body">
+              <h3>Custom recon tooling</h3>
+              <p class="project-one-liner">Subdomain enumeration, port scanning and OSINT automation scripts.</p>
+              <div class="project-tags"><span>Python</span><span>Bash</span></div>
+              <p class="project-impact"><strong>Status:</strong> In development.</p>
+              <div class="project-links">
+                <a href="https://github.com/gouravharmilap" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="other">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Other</span>
+          <h2 class="section-title">Experiments &amp; misc.</h2>
+          <p class="section-lead">Labs, writeups and side builds.</p>
+        </header>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#a78bfa,#00d4ff);">O1</div>
+            <div class="project-body">
+              <h3>Security writeups</h3>
+              <p class="project-one-liner">CTF and responsible-disclosure writeups (sanitized).</p>
+              <div class="project-tags"><span>Markdown</span><span>Research</span></div>
+              <p class="project-impact"><strong>Status:</strong> Coming soon.</p>
+              <div class="project-links">
+                <a href="https://github.com/gouravharmilap" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Gourav Kumar. <a href="index.html">Home</a></p>
+      <p class="footer-note">Built by hand. <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

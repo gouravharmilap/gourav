@@ -1,6 +1,6 @@
-# Gourav Kumar — Portfolio
+# Gourav Kumar — Ethical Hacker Portfolio
 
-A responsive, single-page portfolio website.
+A responsive, single-page portfolio website for an ethical hacker / security researcher.
 
 ## Structure
 - `index.html` — page content (edit placeholders: projects, bio, skills, email)

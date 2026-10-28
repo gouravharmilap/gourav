@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Gourav Kumar — full-stack developer building thoughtful, performant web products." />
-  <title>Gourav Kumar — Portfolio</title>
+  <meta name="description" content="Portfolio of Gourav Kumar — ethical hacker & security researcher. Authorized penetration testing, web/API security, and responsible disclosure." />
+  <title>Gourav Kumar — Ethical Hacker</title>
 
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -19,12 +19,14 @@
 
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="logo" href="#top" aria-label="Gourav Kumar home">GK<span class="dot">.</span></a>
+      <a class="logo" href="#top" aria-label="Gourav Kumar home">
+        <span class="logo-bracket">[</span>GK<span class="dot">_</span><span class="logo-bracket">]</span>
+      </a>
       <nav class="nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="#work">Work</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#skills">Toolkit</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -46,22 +48,30 @@
         <div class="hero-content reveal">
           <span class="badge">
             <span class="badge-dot"></span>
-            Available for opportunities
+            Authorized engagements &amp; responsible disclosure
           </span>
           <h1 class="hero-title">
             Hi, I'm <span class="gradient-text">Gourav Kumar</span>.
           </h1>
-          <h2 class="hero-sub">Full-Stack Developer</h2>
+          <h2 class="hero-sub">$ whoami — gourav (aura)</h2>
           <p class="hero-lead">
-            I build fast, accessible and thoughtful web products — from
-            pixel-perfect interfaces to reliable backends. I care about
-            the details that make software feel effortless.
+            I break things on purpose so attackers can't. I perform authorized
+            penetration testing and security research across web, API and
+            infrastructure targets — finding real risk, writing reproducible
+            PoCs, and handing teams fixes that actually hold.
           </p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="#work">View my work</a>
-            <a class="btn btn-ghost" href="#contact">Let's talk</a>
+            <a class="btn btn-primary" href="projects.html">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Hire / disclose</a>
           </div>
           <ul class="hero-social" aria-label="Social links">
+            <li>
+              <a href="https://github.com/gouravharmilap" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.82.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10Z"/>
+                </svg>
+              </a>
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/gourav-bajwa-5b4453447" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
@@ -70,14 +80,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                  <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.82.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10Z"/>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="mailto:hello@example.com" aria-label="Email">
+              <a href="mailto:gouravharmilap@gmail.com" aria-label="Email">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
                   <rect x="3" y="5" width="18" height="14" rx="2"/>
                   <path d="m3 7 9 6 9-6"/>
@@ -87,113 +90,64 @@
           </ul>
         </div>
         <div class="hero-visual reveal" aria-hidden="true">
-          <div class="orb"></div>
-          <div class="rings">
-            <span></span><span></span><span></span>
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="terminal-title">gourav@kali ~ bash</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="out">gourav — ethical hacker</p>
+              <p><span class="prompt">$</span> scope --verify</p>
+              <p class="out ok">[✓] written authorization on file</p>
+              <p><span class="prompt">$</span> nmap -sV -p- target.example</p>
+              <p class="out">open: 22,80,443,8080</p>
+              <p><span class="prompt">$</span> burp --proxy 127.0.0.1:8080</p>
+              <p class="out ok">[✓] interception active</p>
+              <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="work">
-      <div class="container">
-        <header class="section-head reveal">
-          <span class="eyebrow">Selected work</span>
-          <h2 class="section-title">Projects that ship.</h2>
-          <p class="section-lead">A few recent builds — more on request.</p>
-        </header>
-
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#6366f1,#22d3ee);">P1</div>
-            <div class="project-body">
-              <h3>Project One</h3>
-              <p class="project-one-liner">A short sentence about what this project does and the problem it solves.</p>
-              <div class="project-tags">
-                <span>React</span><span>Node.js</span><span>PostgreSQL</span>
-              </div>
-              <p class="project-impact"><strong>Impact:</strong> e.g. doubled sign-ups in 3 months.</p>
-              <div class="project-links">
-                <a href="#" aria-label="Live demo for Project One">Live ↗</a>
-                <a href="#" aria-label="Source code for Project One">Code ↗</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#f472b6,#a78bfa);">P2</div>
-            <div class="project-body">
-              <h3>Project Two</h3>
-              <p class="project-one-liner">A short sentence about what this project does and the problem it solves.</p>
-              <div class="project-tags">
-                <span>TypeScript</span><span>Next.js</span><span>Tailwind</span>
-              </div>
-              <p class="project-impact"><strong>Impact:</strong> e.g. cut page load by 60%.</p>
-              <div class="project-links">
-                <a href="#" aria-label="Live demo for Project Two">Live ↗</a>
-                <a href="#" aria-label="Source code for Project Two">Code ↗</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-thumb" style="--thumb: linear-gradient(135deg,#34d399,#3b82f6);">P3</div>
-            <div class="project-body">
-              <h3>Project Three</h3>
-              <p class="project-one-liner">A short sentence about what this project does and the problem it solves.</p>
-              <div class="project-tags">
-                <span>Python</span><span>FastAPI</span><span>Redis</span>
-              </div>
-              <p class="project-impact"><strong>Impact:</strong> e.g. saved 10 hours/week of manual work.</p>
-              <div class="project-links">
-                <a href="#" aria-label="Live demo for Project Three">Live ↗</a>
-                <a href="#" aria-label="Source code for Project Three">Code ↗</a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="work-cta reveal">
-          <p>Want the full story behind a project?</p>
-          <a class="btn btn-ghost" href="#contact">Ask me ↗</a>
-        </div>
-      </div>
-    </section>
 
     <section class="section" id="about">
       <div class="container about-grid">
         <div class="about-text reveal">
           <span class="eyebrow">About</span>
-          <h2 class="section-title">A builder who sweats the details.</h2>
+          <h2 class="section-title">An attacker's mindset, a defender's intent.</h2>
           <p>
-            I'm Gourav Kumar, a full-stack developer who enjoys turning messy
-            problems into simple, reliable software. I work across the stack —
-            from interface design and accessibility to APIs, databases and
-            deployment — and I ship with a focus on clarity and performance.
+            I'm Gourav Kumar (aka aura), an ethical hacker and security researcher. I work
+            with clear, written scope and authorization — mapping attack surface,
+            chaining low-severity issues into real impact, and documenting
+            everything so fixes are unambiguous. I've reported across web apps,
+            APIs, and cloud assets under coordinated disclosure.
           </p>
           <p>
-            Outside of shipping features, I like reading about distributed
-            systems, contributing to open source and mentoring fellow devs.
-            I'm currently open to interesting freelance and full-time roles.
+            I also build and break my own labs, contribute to open source tooling,
+            and help teams think like attackers. Currently open to authorized
+            engagements, bug-bounty collaboration and security consulting.
           </p>
         </div>
         <aside class="about-panel reveal">
           <div class="stat">
             <span class="stat-num">3+</span>
-            <span class="stat-label">Years building</span>
+            <span class="stat-label">Years in security</span>
           </div>
           <div class="stat">
-            <span class="stat-num">10+</span>
-            <span class="stat-label">Projects shipped</span>
+            <span class="stat-num">40+</span>
+            <span class="stat-label">Reports submitted</span>
           </div>
           <div class="stat">
-            <span class="stat-num">∞</span>
-            <span class="stat-label">Cups of chai</span>
+            <span class="stat-num">12</span>
+            <span class="stat-label">Critical (CVSS 9+)</span>
           </div>
           <ul class="facts">
             <li><span>📍</span> India</li>
-            <li><span>💼</span> Open to work</li>
+            <li><span>📜</span> eJPT · CEH (in progress)</li>
             <li><span>🗣</span> English, Hindi</li>
+            <li><span>🛡</span> Coordinated disclosure</li>
           </ul>
         </aside>
       </div>
@@ -203,35 +157,35 @@
       <div class="container">
         <header class="section-head reveal">
           <span class="eyebrow">Toolkit</span>
-          <h2 class="section-title">What I work with.</h2>
+          <h2 class="section-title">What I break (and how).</h2>
         </header>
         <div class="skills-grid reveal">
           <div class="skill-group">
-            <h3>Frontend</h3>
+            <h3>Recon &amp; OSINT</h3>
             <ul>
-              <li>HTML/CSS</li><li>JavaScript</li><li>TypeScript</li>
-              <li>React</li><li>Next.js</li><li>Tailwind CSS</li>
+              <li>Nmap</li><li>Amass</li><li>Subfinder</li><li>Shodan</li>
+              <li>DNS enumeration</li><li>Fingerprinting</li>
             </ul>
           </div>
           <div class="skill-group">
-            <h3>Backend</h3>
+            <h3>Web &amp; API</h3>
             <ul>
-              <li>Node.js</li><li>Express</li><li>Python</li>
-              <li>FastAPI</li><li>REST/GraphQL</li><li>WebSockets</li>
+              <li>Burp Suite</li><li>OWASP Top 10</li><li>SQLi / XSS</li>
+              <li>SSRF / IDOR</li><li>API Testing</li><li>Auth bypass</li>
             </ul>
           </div>
           <div class="skill-group">
-            <h3>Data & Infra</h3>
+            <h3>Exploitation</h3>
             <ul>
-              <li>PostgreSQL</li><li>MongoDB</li><li>Redis</li>
-              <li>Docker</li><li>CI/CD</li><li>Cloud (AWS/Vercel)</li>
+              <li>Metasploit</li><li>Python tooling</li><li>Privilege esc.</li>
+              <li>Linux / Windows</li><li>Reverse shells</li><li>Pivoting</li>
             </ul>
           </div>
           <div class="skill-group">
-            <h3>Practices</h3>
+            <h3>Reporting</h3>
             <ul>
-              <li>Accessibility</li><li>Performance</li><li>Testing</li>
-              <li>Design systems</li><li>Git workflow</li><li>Code review</li>
+              <li>CVSS scoring</li><li>PoC authoring</li><li>Remediation</li>
+              <li>Detection rules</li><li>Threat modeling</li><li>Client comms</li>
             </ul>
           </div>
         </div>
@@ -242,21 +196,21 @@
       <div class="container contact-inner reveal">
         <div class="contact-copy">
           <span class="eyebrow">Contact</span>
-          <h2 class="section-title">Let's build something.</h2>
+          <h2 class="section-title">Scope in. Let's talk.</h2>
           <p>
-            I'm open to freelance projects, full-time roles and good
-            conversations. The fastest way to reach me is email — or say hi
-            on LinkedIn.
+            Open to authorized penetration tests, bug-bounty collaboration and
+            responsible disclosure. I only test with written authorization — if
+            you've got a target and a scope, reach out.
           </p>
         </div>
         <div class="contact-actions">
-          <a class="btn btn-primary btn-lg" id="email-btn" href="mailto:hello@example.com">
+          <a class="btn btn-primary btn-lg" id="email-btn" href="mailto:gouravharmilap@gmail.com">
             Email me ↗
           </a>
           <a class="btn btn-ghost btn-lg" href="https://www.linkedin.com/in/gourav-bajwa-5b4453447" target="_blank" rel="noopener noreferrer">
             LinkedIn ↗
           </a>
-          <button class="btn btn-ghost btn-sm copy-btn" id="copy-email" type="button" data-email="hello@example.com">
+          <button class="btn btn-ghost btn-sm copy-btn" id="copy-email" type="button" data-email="gouravharmilap@gmail.com">
             Copy email
           </button>
         </div>
@@ -267,8 +221,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> Gourav Kumar. Built with care.</p>
-      <p class="footer-note">Designed & coded by hand. <a href="#top">Back to top ↑</a></p>
+      <p>© <span id="year"></span> Gourav Kumar — ethical hacker. No exploits shipped without a signed scope.</p>
+      <p class="footer-note">Built by hand. <a href="#top">Back to top ↑</a></p>
     </div>
   </footer>
 

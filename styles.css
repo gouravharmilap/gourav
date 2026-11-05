@@ -353,9 +353,17 @@ body {
 @keyframes blink { 50% { opacity: 0; } }
 
 /* Hero visual override */
-.hero-visual { max-width: 400px; }
+.hero-visual { max-width: 400px; aspect-ratio: auto; display: grid; place-items: center; }
 .orb { display: none; }
 .rings { display: none; }
+.hero-logo {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 20px 40px var(--accent-glow));
+  animation: antigrav 6s ease-in-out infinite;
+}
 
 /* Projects */
 .projects-grid {

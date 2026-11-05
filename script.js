@@ -89,7 +89,7 @@
         dirs[i] === 1 ? Math.random() * -40 : (h / fontSize) + Math.random() * 40);
     }
     function tick() {
-      ctx.fillStyle = 'rgba(5, 10, 8, 0.12)';
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.12)';
       ctx.fillRect(0, 0, w, h);
       ctx.font = fontSize + 'px "JetBrains Mono", monospace';
       for (let i = 0; i < drops.length; i++) {
@@ -97,7 +97,7 @@
         const x = i * fontSize;
         const y = drops[i] * fontSize;
         const bright = Math.random() > 0.92;
-        ctx.fillStyle = bright ? 'rgba(214,255,233,0.9)' : 'rgba(0,255,136,0.55)';
+        ctx.fillStyle = bright ? 'rgba(255,255,255,0.95)' : 'rgba(45,212,191,0.45)';
         ctx.fillText(ch, x, y);
         if (dirs[i] === 1) {
           if (y > h && Math.random() > 0.975) drops[i] = Math.random() * -40;
